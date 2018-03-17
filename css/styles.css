@@ -1,0 +1,522 @@
+body {
+  font-size: 20px;
+  color: #464646;
+  background-color: #ddd;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+form {
+    margin:0 auto;
+    width:100%;
+}
+input, textarea {
+  width:100%;
+  height:27px;
+  background:#efefef;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding:10px;
+  margin-bottom: 40px;
+  margin-top:3px;
+  font-size:0.7em;
+  color:#3a3a3a;
+}
+
+#text-contact div{
+color: #464646;
+}
+
+.btn-primary{
+  background-color: #0097CC;
+}
+
+
+input:focus, textarea:focus{ 
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+  border-bottom: 1.5px solid #0097CC;
+}
+textarea{
+  height:150px;
+  background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+#fb-page-container{
+    position: relative;
+    width: 80%;;
+    height: 100;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background-color: #777;
+}
+#lista {
+  padding: 0; 
+  border : 1px solid;
+  border-color: #bbb;
+  margin-right: 20px;
+}
+
+#follow{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size:20px;
+  font-weight: bold;
+  color : #E7E7E7;
+  padding-top: 10px;
+}
+#listtitle{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size:35px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#fbshare{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#sectionfacebook{
+  background-color: #0097CC;  
+}
+
+ 
+#sectionlista {
+  padding: 0; 
+color : #464646;
+}
+#listathings {
+  color : #464646;
+}
+
+#div-list{
+  padding: 0px;
+}
+
+#brochure{
+  padding: 0; 
+  border : 1px solid;
+  border-color: #aaa;
+  background-color: #ddd;
+}
+#address{
+  padding: 10px; 
+  border : 1px solid;
+  border-color: #aaa;
+  background-color: #ddd;
+}
+
+
+#picboth{
+  padding: 20px;
+  width:  100%;
+
+}
+#pTitle{
+  font-family: 'Merriweather', serif;
+  font-size:30px;
+  font-weight: bold; 
+  padding-top: 20px;
+}
+
+
+#pPoints{
+  padding: 20px;
+  text-align: left;
+  font-size:25px;
+}
+
+#h1Fair{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size:40px;
+  font-weight: bold;
+  font-style: italic;
+  background-color:#E2D471;
+  margin-bottom: 0px;
+}
+
+#everyone{
+ background-color: #0097CC;
+ padding-right: 5px;
+ color :#e7e7e7;
+}
+
+li{
+  padding-right: 10px;
+  padding-left:0px;
+  text-align: center;
+}
+
+#iframefb {
+    
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #464646;
+  border-radius: 0;
+  border: 0;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;}
+#header-nav-menu {
+    background-color: #464646;
+    border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  padding: 00px;
+}
+.navbar {
+    position: relative;
+    min-height: 0px;
+    margin-bottom: 00px;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar-brand h1 { /* Rector for judge */
+	font-family: 'Libre Baskerville', serif;
+  color: #464646;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 1px #444;
+  margin-top: 0;
+  margin-bottom: 10;
+  line-height: 0.5;
+}
+a:hover {
+  color :red;
+  text-decoration: none;
+}
+
+.navbar-brand p { /* Madison */
+  color: #464646;
+  font-size: 1em;
+  margin-top: 20px;
+}
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #ccc;
+  text-align: center;
+  padding: 8px;
+  padding-top: 20px;
+  margin-left: 0px;
+}
+#divmenu{
+  padding: 0px;
+}
+#divmenu{
+  padding: 0px;
+}
+#nav-list a:hover {
+  color:#fff;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+#collapsable-nav{
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #464646;
+  float: right;
+  text-align: right;
+}
+
+#div-facebook{
+  padding: 0px;
+  background-color: #464646;
+  float: right;
+  margin-top: 20px;
+  text-align: right;
+
+}
+
+#farright{
+  
+  float: right;
+  
+  
+}
+#div-donate{
+  background-color: #AF1812;
+  margin-top: 5px;
+  padding : 10px;
+}
+
+#div-donate a:hover{
+  background-color: #D00;
+
+}
+
+#div-donate a{
+  color :#fff;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#fb-img {
+    background: url('../images/fbon.png') no-repeat;
+    width: 25px;
+    height: 25px;
+  }
+
+#fb-img:hover {
+  background: url('../images/fboff.png') no-repeat;
+}
+
+#mainpic{
+	padding: 0;
+	margin:0;
+}
+
+/* FOOTER */
+#main-content{
+  padding: 0px;
+}
+.panel-footer {
+  margin-top: 00px;
+  padding-top: 0px;
+  background-color: #464646;
+  border-top: 0;
+  font-size:1em;
+    color: #E2D471;
+}
+.panel-footer div.row {
+
+  margin-bottom: 35px;
+  padding-top: 0px;
+}
+
+#footest{
+  margin-top: 00px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #464646;
+  border-top: 0;
+  font-size:1em;
+  color: #777;	
+
+}
+#footfooter{
+  margin-top: 00px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  background-color: #222;
+  border-top: 0;
+  font-size:1em;
+  color: #888;	
+
+}
+.copyright-left {
+	text-align: left;
+	  font-size:0.7em;
+
+}
+
+.paidfor-right {
+	text-align: right;
+	  font-size:0.7em;
+}
+
+.copyright-center {
+	text-align: center;
+	  font-size:0.7em;
+
+}
+
+.paidfor-center {
+	text-align: center;
+	  font-size:0.7em;
+}
+
+#textfoot {
+	text-align: left;
+	color: #BBB;
+	font-size:0.9em;
+
+}
+/* END FOOTER */
+
+#main{
+  border-radius: 0;
+  border: 0; 
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+#mainpic{
+	padding: 0;
+	margin:0;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+#mainpic{
+	padding: 0;
+	margin:0;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+#mainpic{
+	padding: 0;
+	margin:0;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+.navbar-nav{
+	margin:0px;
+}
+#mainpic{
+	padding: 0;
+	margin:0;
+}
+
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+}
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+#navbar-brand{
+  padding-top: 25px;
+}
+}
+
+/********** Small devices only **********/
+@media   (max-width: 991px) {
+.navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 0px solid transparent;
+        box-shadow: inset 0 0px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px;
+  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+      display:block !important;
+  }
+  #collapsable-nav{
+  padding: 0px;
+  text-align: right;
+}
+#div-donate{
+  margin-right: 20px;
+}
+#div-facebook{
+  margin-right: 50px;
+}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #pTitle, #listtitle { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #pPoints, #sectionlista h3{
+    padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+}
+
+@media (max-width: 479px) {
+
+
+  }
+}
