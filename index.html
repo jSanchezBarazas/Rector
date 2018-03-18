@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Yantramanav" rel="stylesheet">
-    <link rel="icon" href="images/LogoSquare.jpg">
+    <link rel="icon" href="images/LogoIco.png">
   </head>
 <body>
 <div id="fb-root"></div>
@@ -26,9 +26,9 @@
       <div id="divmenu" class="container">
         <div class="navbar-header">
           <div class="navbar-brand">
-              <img src="images/LogoFatGoldenw3.png" alt="Logo" class="img-responsive visible-lg hidden-md hidden-sm hidden-xs">              
-              <img src="images/LogoFatGoldenw75.png" alt="Logo" class="img-responsive visible-md hidden-lg hidden-sm hidden-xs">              
-              <img src="images/LogoFatGoldenw75.png" alt="Logo" class="img-responsive visible-xs visible-sm hidden-md hidden-lg">              
+              <a href="index.html"><img src="images/Logo1.png" alt="Logo" class="img-responsive visible-lg hidden-md hidden-sm hidden-xs">              
+              <img src="images/Logo1-sm.png" alt="Logo" class="img-responsive visible-md hidden-lg hidden-sm hidden-xs">              
+              <img src="images/Logo1-sm.png" alt="Logo" class="img-responsive visible-xs visible-sm hidden-md hidden-lg">              </a>
           </div>
                   </div>
           <button id="navbarToggle" type="button" class="navbar-toggle pull-right collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
@@ -57,7 +57,7 @@
               <a href="#" onclick="$dc.loadsocial();">Social Media  </a>
             </li>
             <li>
-              <a href="#" onclick="$dc.loadcontact();">How to Vote  </a>
+              <a href="#" onclick="$dc.loadvote();">How to Vote  </a>
             </li>
             <li>
               <a href="#" onclick="$dc.loadcontact();">Contact  </a>
@@ -92,23 +92,31 @@
    <footer class="panel-footer">
     <div id="footfooter" class="container">
       <div class="row">
-        <section id="col1" class="col-sm-3">
+        <section id="col1" class="col-sm-3 col-xs-12">
       		<p>
-              <img src="images/logo100.jpg" alt="Logo">              
+              <img src="images/LogoGrey-sm.png" alt="Logo">              
             </p>
+           
+            <div class="col-xs-2 col-sm-10 col-md-6 col-lg-5" style="padding-left:0px; padding-right:10px">
+              <div id="div-donate" style="width: 100px">
+              <a id="fblink" href="#" onclick="$dc.loaddonate();">DONATE  </a>
+          </div> 
+          </div> 
         </section>
 
-        <section id="col2" class="col-sm-3">
+        <section id="col2" class="col-sm-3 col-xs-12">
       		<div class="text-left">
-      		    <h5>QUICK LINKS</h5>
-              <a href="index.html"><div id="textfoot">Home</div></a>
-              <a href="#" onclick="$dc.loadabout();"><div id="textfoot">About NiCale</div></a>
-              <a href="#" onclick="$dc.loadevents();"><div id="textfoot">Events</div></a>
-              <a href="#" onclick="$dc.loadsocial();"><div id="textfoot">Social Media</div></a>
+      		  <h5>QUICK LINKS</h5>
+              <div id="textfoot"><a href="index.html">Home</a></div>
+              <div id="textfoot"><a href="#" onclick="$dc.loadabout();">About NiCale</a></div>
+              <div id="textfoot"><a href="#" onclick="$dc.loadevents();">Events</a></div>
+              <div id="textfoot"><a href="#" onclick="$dc.loadsocial();">Social Media</a></div>
+              <div id="textfoot"><a href="#" onclick="$dc.loadvote();">How to Vote</a></div>
+              <div id="textfoot"><a href="#" onclick="$dc.loadcontact();">Contact</a></div>
       		</div>
         </section>
 
-        <section id="col3" class="col-sm-3">
+        <section id="col3" class="col-sm-3 col-xs-12">
       		<div class="text-left">
       			<h5>CONTACT</h5>
       			<div id="textfoot">The Committee to Elect NiCale Rector</div>
@@ -122,9 +130,9 @@
       		</div>
         </section>
 
-        <section id="col4" class="col-sm-3">
+        <section id="col4" class="col-sm-3 col-xs-12">
       		<div class="text-left">
-      			<h5>FOLLOW US</h5>
+      			<h5>FOLLOW NICALE</h5>
 	            <a id="fblink" href="https://www.facebook.com/rectorforjudge" class="pull-left" target="_blank" >
 	            	<div id="fb-img"></div>
 	            </a>

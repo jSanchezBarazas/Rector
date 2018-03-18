@@ -24,6 +24,7 @@ var aboutHtml = "snippets/about.html";
 var socialHtml = "snippets/social.html";
 var contactHtml = "snippets/contact.html";
 var donateHtml = "snippets/donate.html";
+var voteHtml = "snippets/vote.html";
 
 
 // Convenience function for inserting innerHTML for 'select'
@@ -100,6 +101,17 @@ dc.loaddonate = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     donateHtml,
+      function (responseText) {
+    document.querySelector("#main-content")
+      .innerHTML = responseText;
+  },
+  false);
+};
+
+dc.loadvote = function () {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    voteHtml,
       function (responseText) {
     document.querySelector("#main-content")
       .innerHTML = responseText;

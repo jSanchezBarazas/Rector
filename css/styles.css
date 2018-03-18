@@ -45,7 +45,7 @@ textarea{
 }
 #fb-page-container{
     position: relative;
-    width: 80%;;
+    width: 80%;
     height: 100;
     margin: 0 auto;
     margin-bottom: 35px;
@@ -105,6 +105,8 @@ color : #464646;
   border-color: #aaa;
   background-color: #ddd;
 }
+
+
 #address{
   padding: 10px; 
   border : 1px solid;
@@ -154,11 +156,18 @@ li{
   text-align: center;
 }
 
-#iframefb {
-    
-    width:100%;
-    float:left;
+#fb-frame {
+    margin: 0 auto;
     text-align:center;
+    display:block;
+}
+
+#div-event img{
+    display : block;
+    margin : 0 auto;
+}
+#div-event{
+  overflow:hidden;
 }
 
 /** HEADER **/
@@ -196,10 +205,6 @@ li{
   margin-bottom: 10;
   line-height: 0.5;
 }
-a:hover {
-  color :red;
-  text-decoration: none;
-}
 
 .navbar-brand p { /* Madison */
   color: #464646;
@@ -221,6 +226,11 @@ a:hover {
 }
 #divmenu{
   padding: 0px;
+}
+
+.text-left a:hover{
+  color:#fff;
+  text-decoration: none;
 }
 #nav-list a:hover {
   color:#fff;
@@ -244,13 +254,59 @@ a:hover {
   text-align: right;
 
 }
+#div-vote{
+ border : 2px solid;
+ border-color: #0097CC;
+ width:150px;
+ height: 40px;
+ margin: auto;
+ position: absolute;
+ bottom: 0px;
+  right:25%;
+    left:50%;
+    margin-left:-75px;
+}
 
-#farright{
-  
-  float: right;
-  
+#imgribbon{
+  margin : auto;
+}
+
+#div-vote:hover{
+  background-color: #0097CC;
   
 }
+#div-vote:hover a{
+  color:#e7e7e7;
+}
+
+#div-vote a{
+  color : #0097CC;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-top: 0px;
+  font-weight: bold;
+}
+
+#farright{
+  float: right;
+}
+
+#votecol{
+  padding: 40px;
+
+  height: 350px;
+  background-color: #eee;
+  margin-bottom: 40px;
+}
+#votecolinner{
+  padding: 10px;
+  height: 350px;
+  border : 1px solid;
+  border-color: #aaa;
+  background-color: #eee;
+
+}
+
 #div-donate{
   background-color: #AF1812;
   margin-top: 5px;
@@ -259,8 +315,14 @@ a:hover {
 
 #div-donate a:hover{
   background-color: #D00;
-
+  text-decoration: none;
 }
+
+#div-donate:hover {
+  background-color :#D00;
+  text-decoration: none;
+}
+
 
 #div-donate a{
   color :#fff;
@@ -345,10 +407,18 @@ a:hover {
 }
 
 #textfoot {
-	text-align: left;
-	color: #BBB;
-	font-size:0.9em;
+  text-align: left;
+  color: #BBB;
+  font-size:0.9em;
 
+}
+#textfoot a {
+  text-align: left;
+  color: #BBB;
+}
+#textfoot a:hover {
+  text-align: left;
+  color: #fff;
 }
 /* END FOOTER */
 
@@ -379,13 +449,23 @@ a:hover {
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   /* Home Page */
 #mainpic{
 	padding: 0;
 	margin:0;
 }
-
+#sectionfacebook {
+  padding-bottom: 15px;
+}
+#fb-page-container{
+    position: relative;
+    width: 340px;
+    height: 100;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    background-color: #777;
+}
 }
 
 /********** Extra small devices only **********/
