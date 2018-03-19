@@ -331,6 +331,31 @@ li{
 #div-donate a{
   color :#fff;
   padding: 5px;
+  width: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#div-donate-sm{
+  background-color: #AF1812;
+  margin-top: 5px;
+  padding : 10px;
+}
+
+#div-donate-sm a:hover{
+  background-color: #D00;
+  text-decoration: none;
+}
+
+#div-donate-sm:hover {
+  background-color :#D00;
+  text-decoration: none;
+}
+
+
+#div-donate-sm a{
+  color :#fff;
+  padding: 5px;
   font-weight: bold;
   text-decoration: none;
 }
