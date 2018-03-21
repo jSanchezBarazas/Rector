@@ -238,13 +238,6 @@ li{
 #nav-list a span {
   font-size: 1em;
 }
-#collapsable-nav{
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: #464646;
-  float: right;
-  text-align: right;
-}
 
 #div-facebook{
   padding: 0px;
@@ -556,10 +549,18 @@ li{
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px)  {
 #navbar-brand{
   padding-top: 25px;
 }
+#collapsable-nav{
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #464646;
+  float: right;
+  text-align: right;
+}
+
 }
 
 /********** Small devices only **********/
@@ -598,10 +599,24 @@ li{
     .collapse.in{
       display:block !important;
   }
-  #collapsable-nav{
+
+#collapsable-nav{
   padding: 0px;
-  text-align: right;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #e9e9e9;
+  text-align: center;
+  color : #464646;
+  margin-top: 10px; 
 }
+ #nav-list a {
+  color : #464646;
+ }
+ #nav-list a:hover {
+  color : #464646;    
+  background-color: #ccc;
+ }
+
 #div-donate{
   margin-right: 20px;
 }
@@ -609,7 +624,9 @@ li{
   margin-right: 50px;
 }
 
+.li{
 
+}
 }
 
 /********** Extra small devices only **********/

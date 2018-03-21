@@ -26,93 +26,85 @@
       <div id="divmenu" class="container">
         <div class="navbar-header">
           <div class="navbar-brand">
-              <a href="index.html"><img src="images/Logo1.png" alt="Logo" class="img-responsive visible-lg hidden-md hidden-sm hidden-xs">              
+              <a href="index.html"><img src="images/Logo1.png" alt="Logo"  class="img-responsive visible-lg hidden-md hidden-sm hidden-xs">              
               <img src="images/Logo1-sm.png" alt="Logo" class="img-responsive visible-md hidden-lg hidden-sm hidden-xs">              
               <img src="images/Logo1-sm.png" alt="Logo" class="img-responsive visible-xs visible-sm hidden-md hidden-lg">              </a>
           </div>
 
-
-                  </div>
-          <div class="row">
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-3  col-xs-3">
-              <div  id="div-donate-sm" style="margin-top: 0px; float: right" class="hidden-md hidden-lg">
-                  <a id="fblink" href="#" onclick="$dc.loaddonate();">DONATE  </a>
-              </div> 
-            </section>
-            <section class="col-sm-1 col-xs-1">
-            </section>
-            <section class="col-sm-1 col-xs-1">
-
-              <div>
-                <button id="navbarToggle" type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
+              <div id="div-facebook" style="margin-right: 40px;" class="hidden-md hidden-lg">
+                <a id="fblink" href="https://www.facebook.com/rectorforjudge"   target="_blank" >
+                  <div id="fb-img"></div>
+                </a>     
               </div>
-            </section>
 
-          </div>
-      </div>
+        </div>
+        <div class="row">
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-1 col-xs-1">             </section>
+          <section class="col-sm-3  col-xs-3">
+            <div  id="div-donate-sm" style="margin-top: 0px; float: right" class="hidden-md hidden-lg">
+                <a id="fblink" href="#" onclick="$dc.loaddonate();">DONATE  </a>
+            </div> 
+          </section>             <section class="col-sm-1 col-xs-1">
+          </section>             <section class="col-sm-1 col-xs-1">
+            <div>
+              <button id="navbarToggle" type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <div id="div-list" class="container">
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-botton">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#" onclick="$dc.loadabout();">About NiCale</a>
+                </li>
+                <li>
+                  <a href="#" onclick="$dc.loadevents();">Events  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="$dc.loadsocial();">Social Media  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="$dc.loadvote();">How to Vote  </a>
+                </li>
+                <li>
+                  <a href="#" onclick="$dc.loadcontact();">Contact  </a>
+                </li>
 
 
+            </ul><!-- #nav-list -->
+            <div id="farright">
+              <div id="div-donate" class="hidden-xs hidden-sm">
+                  <a id="fblink" href="#" onclick="$dc.loaddonate();">DONATE  </a>
+              </div>  
+                        
+              <div id="div-facebook" class="hidden-xs hidden-sm">
+                <a id="fblink" href="https://www.facebook.com/rectorforjudge"  target="_blank" >
+                  <div id="fb-img"></div>
+                </a>     
+              </div>
+            </div>
+          </div><!-- .collapse .navbar-collapse -->
+        </div>
 
-  <div id="div-list" class="container">
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-		<ul id="nav-list" class="nav navbar-nav navbar-botton">
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="#" onclick="$dc.loadabout();">About NiCale</a>
-            </li>
-            <li>
-              <a href="#" onclick="$dc.loadevents();">Events  </a>
-            </li>
-            <li>
-              <a href="#" onclick="$dc.loadsocial();">Social Media  </a>
-            </li>
-            <li>
-              <a href="#" onclick="$dc.loadvote();">How to Vote  </a>
-            </li>
-            <li>
-              <a href="#" onclick="$dc.loadcontact();">Contact  </a>
-            </li>
+  
 
 
-          </ul><!-- #nav-list -->
-          <div id="farright">
-          <div id="div-donate" class="hidden-xs hidden-sm">
-              <a id="fblink" href="#" onclick="$dc.loaddonate();">DONATE  </a>
-          </div>  
-                    
-          <div id="div-facebook">
-            <a id="fblink" href="https://www.facebook.com/rectorforjudge"  target="_blank" >
-              <div id="fb-img"></div>
-            </a>     
-          </div>
-          </div>
-
-        </div><!-- .collapse .navbar-collapse -->
-
-
-</div>
-</nav>
+    </nav>
   </header>
 
 
